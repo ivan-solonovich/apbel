@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import { heroImageUrl } from '@/utils/hero'
+
   import heroImg from "~/assets/images/hero.png"
   import heroVid from "~/assets/video/prison-short.mp4"
   import heroVidW from "~/assets/video/prison-short.webm"
@@ -8,8 +8,8 @@
   const imgHero = ref(heroImg)
   const heroCaption = 'We provide support to rebuilds lives'
   const heroTitle = 'Created by political prisoners for political prisoners'
-  const heroDescription =
-    'Find your new furry friend today! We have a wide variety of lovable pets available for adoption. Come visit us and take home your new best friend!'
+
+
 </script>
 <template>
   <section class="hero-section mx-auto  pb-12 ">
@@ -33,27 +33,26 @@
 <!--                lovable pets available for adoption. Come visit us and take home-->
 <!--                your new best friend!-->
 <!--              </p>-->
-              <Button
-                class="focus:outline-none text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-900 p-4 mr-4"
+              <BaseButton class="focus:outline-none text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-900 p-4 mr-4"
                 size="xl"
                 label="I want to help"
-                target="_blank"
+
                 to="/"
               >
                 <div class="inline-block ml-1 p-1.5 text-lg">I want to help</div>
 
-              </Button>
-              <Button
+              </BaseButton>
+              <BaseButton
                   class="focus:outline-none text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-900 p-4 mr-4"
 
                   size="xl"
                   label="I need a help"
-                  target="_blank"
+
                   to="/"
               >
                 <div class="inline-block ml-1 p-1.5 text-lg">I need a help</div>
 
-              </Button>
+              </BaseButton>
             </div>
           </div>
         </div>
@@ -102,12 +101,5 @@
     font-size: large;
   }
 }
-  .background-hero{
-    width: 100%;
-    height: 592px;
-    background-image: url("@/assets/images/hero.png");
-    background-size: cover;
-    background-repeat: no-repeat;
 
-  }
 </style>
