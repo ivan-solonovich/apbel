@@ -1,0 +1,12 @@
+{"articles": [
+  {
+    "id": 1,
+    "title": "2020 Country Reports on Human Rights Practices: Belarus",
+    "breed": "Rottweiler",
+    "sex": "Male",
+    "dateOfBirth": "20/01/2013",
+    "image": "https://images.unsplash.com/photo-1552053831-71594a27632d?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDJ8fGRvZ3xlbnwwfHx8fDE2MzA0NjQwNjg&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=600&h=600&fit=crop",
+    "microchip": "234985798247598",
+    "location": "Burwood"
+  }
+]}
