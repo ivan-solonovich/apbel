@@ -7,15 +7,14 @@ export default {
   description: 'Created by political prisoners for political prisoners',
   logo: '~@/assets/logo-images/APB_logo_transparent.png',
   author: 'Pinegrow',
-  url: 'https://happy-paws-with-nuxt-tailwindcss.netlify.app',
-  github: 'https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss',
-  ogImageUrl: 'og-image.jpg', // absolute url (or) from public folder
-  generator: 'https://vuedesigner.com',
+  url: 'https://apbel.vercel.app/',
+  github: 'https://github.com/ivan-solonovich/apbel',
+  ogImageUrl: 'freedomhouse.png', // absolute url (or) from public folder
+  generator: 'none',
   defaultLocale: 'en', // default
   identity: {
     type: 'Organization',
   } as any,
-  twitter: '@vuedesigner',
   trailingSlash: false, // default
   titleSeparator: '|', // default
 

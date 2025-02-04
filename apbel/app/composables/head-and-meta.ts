@@ -15,7 +15,6 @@ export const useHeadAndMeta = (pageMeta: ComputedRef) => {
     ogImageUrl: siteOgImageUrl,
     generator: siteGenerator,
     author,
-    twitter,
     titleSeparator,
   } = siteMeta
 
@@ -38,7 +37,7 @@ export const useHeadAndMeta = (pageMeta: ComputedRef) => {
       rel: 'icon',
       // type: 'image/x-icon',
       type: 'image/svg+xml',
-      href: '/favicon.svg',
+      href: '/favicon.ico',
     },
   ]
   const noscript: any = []
@@ -92,6 +91,7 @@ export const useHeadAndMeta = (pageMeta: ComputedRef) => {
     ],
 
     // useScript can also be used to load scripts
+    // @ts-ignore
     script: [{ innerHTML: checkDarkTheme, once: true } as TurboScript],
     link,
     noscript,
@@ -149,7 +149,7 @@ export const useHeadAndMeta = (pageMeta: ComputedRef) => {
     twitterDescription: description,
     twitterImage: ogImage, // set by @nuxtjs/seo & nuxt-og-image
     twitterImageAlt: title,
-    twitterSite: twitter,
+
     twitterCreator: '@techakayy',
   })
 

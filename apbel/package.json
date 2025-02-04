@@ -2,10 +2,10 @@
   "name": "happy-paws-with-nuxt-tailwindcss",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://happy-paws-with-nuxt-tailwindcss.netlify.app",
+  "homepage": "https://apbel.vercel.app/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss.git"
+    "url": "https://apbel.vercel.app/"
   },
   "scripts": {
     "dev": "nuxt dev",

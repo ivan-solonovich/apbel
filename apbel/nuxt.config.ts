@@ -10,7 +10,7 @@ const {
   url,
   defaultLocale,
   identity,
-  twitter,
+
   trailingSlash,
   titleSeparator,
 } = siteMeta
@@ -238,7 +238,7 @@ export default defineNuxtConfig({
     defaultLocale,
     // https://nuxtseo.com/docs/schema-org/guides/setup-identity
     identity,
-    twitter,
+
     trailingSlash,
     titleSeparator,
   },
@@ -283,7 +283,7 @@ export default defineNuxtConfig({
 
   linkChecker: {
     enabled: false,
-    excludeLinks: ['https://twitter.com/vuedesigner'],
+    excludeLinks: ['https://twitter.com/'],
     report: {
       html: true,
       markdown: true,
@@ -292,6 +292,7 @@ export default defineNuxtConfig({
 
   unocss: {
     presets: [
+      // @ts-ignore
       presetIcons({
         prefix: 'i-', // default prefix, do not change
       }),
