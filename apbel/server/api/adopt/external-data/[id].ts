@@ -7,6 +7,7 @@ const apiBaseUrl =
   'https://my-json-server.typicode.com/pinegrow/happy-paws-with-nuxt-tailwindcss'
 
 export default defineEventHandler(async (event): Promise<Pet> => {
+  //@ts-ignore
   const { id } = event.context.params
 
   let pet: Maybe<Pet>

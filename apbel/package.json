@@ -1,5 +1,5 @@
 {
-  "name": "happy-paws-with-nuxt-tailwindcss",
+  "name": "apbel",
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://apbel.vercel.app/",
@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "nuxt dev",
     "now": "npm run build && npm run preview",
-    "lighthouse": "npx unlighthouse --no-cache --site https://happy-paws-with-nuxt-tailwindcss.netlify.app",
+    "lighthouse": "npx unlighthouse --no-cache --site https://apbel.vercel.app/",
     "build": "nuxt build",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
