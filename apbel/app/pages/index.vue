@@ -7,7 +7,7 @@
     // name: 'index',
     // alias: 'index',
     title: 'Home',
-    description: 'Thousands of homeless pets, one act of kindness!',
+    description: 'We provide support to rebuilds lives',
     navOrder: 1,
     type: 'primary',
     icon: 'i-mdi-home',

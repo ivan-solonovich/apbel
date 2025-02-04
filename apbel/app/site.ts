@@ -6,7 +6,7 @@ export default {
   title: 'The Association of Political Prisoners of Belarus',
   description: 'Created by political prisoners for political prisoners',
   logo: '~@/assets/logo-images/APB_logo_transparent.png',
-  author: 'Pinegrow',
+  author: 'Ivan Solonovich',
   url: 'https://apbel.vercel.app/',
   github: 'https://github.com/ivan-solonovich/apbel',
   ogImageUrl: 'freedomhouse.png', // absolute url (or) from public folder
